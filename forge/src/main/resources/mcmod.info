@@ -1,0 +1,13 @@
+[
+  {
+    "modid": "polyblur",
+    "name": "PolyBlur",
+    "description": "Phosphor motion blur",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/Polyfrost/PolyBlur",
+    "authorList": ["Polyfrost"],
+    "logoFile": "icon.png",
+    "requiredMods": ["unimixins"]
+  }
+]

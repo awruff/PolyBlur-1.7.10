@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "polyblur",
+  "version": "${version}",
+  "name": "PolyBlur",
+  "icon": "icon.png",
+  "description": "Phosphor motion blur",
+  "authors": ["Polyfrost"],
+  "contact": {
+    "issues": "https://github.com/Polyfrost/PolyBlur/issues",
+    "sources": "https://github.com/Polyfrost/PolyBlur"
+  },
+  "license": "GPL-3.0-or-later",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["org.polyfrost.polyblur.PolyBlur"],
+    "modmenu": ["org.polyfrost.polyblur.PolyBlurModMenu"]
+  },
+  "mixins": ["mixins.polyblur.json"],
+  "depends": {
+    "minecraft": "1.7.10",
+    "fabricloader": ">=0.19.5"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
